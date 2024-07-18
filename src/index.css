@@ -29,3 +29,131 @@
     background-color: #fff!important;
     color: #309b42  !important;
 }
+
+.auth__pageBg{
+    background-color: #35ab48;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth__wrapper{
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.auth__title{
+    text-align: center;
+    padding: 20px 0 0 0;
+    color: #2cc445;
+}
+
+.auth__span{
+    text-align: center;
+    padding: 10px;
+    color: #2cc445;
+    display: block;
+}
+
+.auth__part{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 40px;
+}
+
+.auth__user{
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 10px #2cc445;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #2cc445;
+    transition: 0.2s;
+    cursor: pointer;
+    padding: 15px;
+
+}
+
+.auth__user:hover{
+    box-shadow: 0 0 20px 5px #2cc44545;
+    transform: scale(103%);
+}
+
+.userIcon{
+    font-size: 90px;
+}
+
+.login__hug{
+    background-color: #fff;
+    width: 400px;
+    /* height: 400px; */
+    border-radius: 10px;
+    padding: 10px 15px;
+    padding-bottom: 40px;
+}
+
+.login__form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__input{
+    width: 80%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #2cc445;
+    outline: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #2cc445;
+    cursor: pointer;
+    
+}
+
+.loginBtn{
+    width: 200px;
+    padding: 10px;
+    background-color: #2cc445;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+    transition: .2s ease;
+}
+
+.loginBtn:active{
+    background-color: #2cc445;
+    transform: scale(99%);
+
+}
+
+.loginBtn:hover{
+    background-color: #29d946;
+    transform: scale(102%);
+    
+}
+
+small{
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: gray;
+}
+
