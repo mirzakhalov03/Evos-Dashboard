@@ -2,11 +2,12 @@ import { BiUserCircle } from "react-icons/bi";
 import { RiShieldUserLine } from "react-icons/ri"; 
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import './home.scss'
 
 const Home = () => {
   return (
     <div className='auth__pageBg'>
-      <div className="auth__wrapper">
+      <div className="auth__wrapper auth__wrapperMedia">
         <h1 className='auth__title'>Welcome to EVOS</h1>
         <span className='auth__span'>Please, choose how you want to proceed! </span>
         <div className="auth__part">

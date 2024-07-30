@@ -30,21 +30,7 @@
     color: #309b42  !important;
 }
 
-.auth__pageBg{
-    background-color: #35ab48;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.auth__wrapper{
-    background-color: #fff;
-    width: 600px;
-    height: 400px;
-    border-radius: 10px;
-    padding: 10px 15px;
-}
 
 .auth__title{
     text-align: center;

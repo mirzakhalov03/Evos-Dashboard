@@ -1,0 +1,53 @@
+.auth__pageBg{
+    background-color: #35ab48;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth__wrapper{
+    background-color: #fff;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+
+
+@media screen and (max-width: 660px) {
+    .auth__pageBg{
+        .auth__wrapperMedia{
+            width: 400px;
+            height: 300px;
+
+            .auth__title{
+                font-size: 22px;
+            }
+            span{
+                font-size: 14px;
+            }
+
+            .auth__part{
+                gap: 20px;
+                a{
+                    small{
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            .auth__user{
+                width: 120px;
+                height: 120px;
+                border-radius: 20px;
+
+                .userIcon{
+                    font-size: 60px;
+                }
+            }
+            
+        }
+    }
+}
